@@ -66,6 +66,8 @@ nav a{
   padding: 0px 5px;
 }
 /*-------------------------/menu-----------------------------*/
+
+/*--------------------------header-----------------------------*/
 header{
   height: 600px;
 }
@@ -77,20 +79,72 @@ header img{
   width: 10%;
 }
 
-main .phan1{
-  width: 100%;
+/*-----------------------/header---------------------------------*/
+
+/*-----------------------gioithieu--------------------------------*/
+.gioithieu{
+  background-color: blue;
+  height: 400px;
+}
+.gioithieu1{
+  width: 80%;
+  margin: 0px auto;
+}
+main .phan1 .benphai{
+  width: 50%;
   background-color: yellow;
+  height: 400px;
+  float: right;
+}
+
+main .phan1 .bentrai{
+  width: 50%;
+  background-color: white;
+  height: 400px;
+  float: left;
+}
+main .phan1 .bentrai img{
+  margin-left: 150px;
+  margin-top:30px;
+}
+
+main .phan2 .benphai{
+  width: 50%;
+  background-color: white;
   height: 390px;
+  float: right;
 }
 
 main .phan2 .bentrai{
+  width: 50%;
+  background-color: yellow;
+  height: 390px;
+  float: left;
+}
+
+main .phan3 .benphai{
+  width: 50%;
+  background-color: yellow;
+  height: 390px;
+  float: right;
+}
+
+main .phan3 .bentrai{
+  width: 50%;
+  background-color: white;
+  height: 390px;
+  float: left;
+}
+
+/*-----------------------/gioithieu--------------------------------*/
+main .phan4 .bentrai{
   width: 50%;
   background-color: #CCC;
   float: left;
   height: 300px;
 }
 
-main .phan2 .benphai{
+main .phan4 .benphai{
   width: 50%;
   background-color: blue;
   float: right;
