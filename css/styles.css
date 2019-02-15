@@ -1,0 +1,104 @@
+
+body{
+  font-family: tahoma;
+  font-size: 13px;
+
+  margin: 0px auto;
+
+}
+
+#content{
+  width: 80%;
+}
+ /*-----------------------menu-----------------------------*/
+ .banner1{
+   background-image: url(../images/backgroundbanner.png);
+   width: 100%;
+   height: 600px;
+ }
+nav{
+
+  height: 50px;
+  margin-right: 3em;
+  margin-bottom: 0;
+  width: 80%;
+  margin-left: 250px;
+}
+
+.logomenu{
+  float: left;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.menu{
+  float: right;
+  width: 70%;
+  height: 40px;
+}
+
+nav ul{
+  margin-top: 20px;
+  margin: 0;
+  padding-left: 0.50%;
+  padding-right: 0.50%;
+  margin-left: 30px;
+}
+
+nav li{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0;
+  width: 10%;
+  float: left;
+  display: inline-block;
+}
+
+nav a{
+  display: table-cell;
+  text-decoration: none;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+  padding: 0px 5px;
+}
+/*-------------------------/menu-----------------------------*/
+header{
+  height: 600px;
+}
+
+header img{
+  margin-left: 430px;
+  margin-top: 100px;
+  height: 25%;
+  width: 10%;
+}
+
+main .phan1{
+  width: 100%;
+  background-color: yellow;
+  height: 390px;
+}
+
+main .phan2 .bentrai{
+  width: 50%;
+  background-color: #CCC;
+  float: left;
+  height: 300px;
+}
+
+main .phan2 .benphai{
+  width: 50%;
+  background-color: blue;
+  float: right;
+  height: 300px;
+}
+
+footer{
+  text-align: center;
+  clear: right;
+  padding-top: 30px;
+}
