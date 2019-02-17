@@ -11,31 +11,41 @@ body{
   width: 80%;
 }
  /*-----------------------menu-----------------------------*/
+.so1{
+
+}
  .banner1{
    background-image: url(../images/backgroundbanner1.png);
-   max-width: 100%;
-   height: auto;
+   background-position:  center;
+
+   align-items: center;
  }
 nav{
-
+  display: block;
   height: 50px;
   margin-right: 3em;
   margin-bottom: 0;
   width: 80%;
   margin-left: 250px;
+  top: 0; /*Nằm trên cùng*/
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
 }
 
+
+
 .logomenu{
-  height: 200px;
-  width: 500px;
-  margin-left: 400px;
-  margin-top: 400px;                    /*margin-top: 400px;                    margin-left: 400px;*/
+
+  height: 40px;
+  width: 140px;
+
+                   /*margin-top: 400px;                    margin-left: 400px;*/
 }
 
 .menu{
   margin-left: 200px;
   width: 80%;
   height: 40px;
+
 }
 
 nav ul{
@@ -53,16 +63,28 @@ nav li{
   width: 10%;
   float: left;
   display: inline-block;
+  margin-top: 10px;
+  margin-left: 40px;
 }
 
-nav a{
+
+
+nav li a{
   display: table-cell;
   text-decoration: none;
   height: 50px;
-  color: white;
-  font-size: 20px;
+  color: black;
+  font-size: 25px;
   vertical-align: middle;
   padding: 0px 5px;
+  white-space: nowrap;
+  background-color: transparent;
+    border-color: transparent;
+    font-family: 'Clarkson',Helvetica,sans-serif;
+}
+
+nav a:hover{
+  background-color:
 }
 /*-------------------------/menu-----------------------------*/
 
@@ -85,10 +107,12 @@ header img{
   height: 1000px;
   width: 1903;
 
+
 }
 .gioithieu1{
   width: 80%;
   margin: 0px auto;
+
 }
 
 .gioithieu1 p{
@@ -96,12 +120,14 @@ header img{
     line-height: 28px;
     font-weight: 400;
     text-align: justify;
+
 }
 main .phan1 .benphai{
   width: 60%;
   background-color: ;
   height: 350px;
   float: right;
+
 }
 
 main .phan1 .bentrai{
@@ -136,7 +162,7 @@ main .phan2 .benphai{
 
 main .phan2 .benphai img{
   margin-left: 0px;
-  margin-top:80px;
+  margin-top:50px;
   display: inline;
 }
 
@@ -152,7 +178,7 @@ main .phan2 .bentrai{
 main .phan2 .bentrai .chubentrai2{
   margin-left: 50px;
   margin-right: 50px;
-  margin-top:120px;
+  margin-top:70px;
 }
 
 main .phan3 .benphai{
@@ -160,12 +186,13 @@ main .phan3 .benphai{
   background-color: ;
   height: 280px;
   float: right;
+
 }
 
 main .phan3 .benphai .chubenphai3{
   margin-left: 80px;
   margin-right: 70px;
-  margin-top:100px;
+  margin-top:80px;
   }
 
 main .phan3 .bentrai{
@@ -190,7 +217,77 @@ main .phan3 .bentrai img{
     font-weight: 300;
     display: block;
 }
-/*-----------------------/gioithieu--------------------------------*/
+
+/*------------------------------------phan5-------------------------------------*/
+
+.functions {
+    margin: 0 -18px;
+    list-style: none;
+    padding: 0;
+
+}
+.functions li {
+    float: left;
+    width: 20%;
+    padding: 0 0px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 25px;
+    color: #666666;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.functions li span {
+    display: block;
+    height: 100px;
+}
+.functions .icon {
+    height: 100px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.functions .icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.phan5 .title{
+  height: 50px;
+  float: left;
+  width: 100%;
+  color: #0095eb;
+  text-transform: none;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  letter-spacing: 1px !important;
+  font-size: 30px;
+}
+
+.phan5 .title1{
+  border-top: dotted;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+.phan5{
+  clear: right;
+  padding: 10px 0 200px;
+}
+
+
+
+/*--------------------------------------------------------------------------*/
+
+/*-----------------------phan4--------------------------------*/
+main .phan4{
+
+}
 main .phan4 .bentrai{
   width: 50%;
   background-color: #CCC;
@@ -205,8 +302,10 @@ main .phan4 .benphai{
   height: 300px;
 }
 
+
 footer{
+
   text-align: center;
-  clear: right;
-  padding-top: 30px;
+  clear: left;
+  padding-top: 50px;
 }
