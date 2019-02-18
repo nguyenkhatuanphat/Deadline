@@ -542,8 +542,61 @@ main .phan4 .benphai{
 
 
 footer{
-
-  text-align: center;
   clear: left;
-  padding-top: 50px;
+  padding: 20px 0;
+  width: 80%;
+  padding-top: 5px;
+  margin: 0px auto;
+}
+
+footer .bentrai{
+  float: left;
+  width: 50%;
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  
+}
+
+
+footer .benphai{
+  float:  left;
+  margin: 0 -18px;
+  list-style: none;
+  padding: 0;
+  width: 40%;
+  margin: 0px auto;
+
+}
+
+footer .benphai .phan1{
+  float: left;
+  width: 33%;
+  background-color: ;
+  height: 50px;
+}
+
+footer .benphai .phan2{
+  width: 33%;
+  height: 50px;
+  background-color: ;
+  float: left;
+}
+
+footer .benphai .phan3{
+  width: 34%;
+  background-color: ;
+  height: 50px;
+  float: left;
+}
+
+footer .benphai p{
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+footer .benphai img{
+    float: left;
+    margin-top: 0px;
 }
