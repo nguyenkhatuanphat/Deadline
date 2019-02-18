@@ -2,7 +2,6 @@
 body{
   font-family: tahoma;
   font-size: 13px;
-
   margin: 0px auto;
 
 }
@@ -15,9 +14,8 @@ body{
 
 }
  .banner1{
-   background-image: url(../images/backgroundbanner1.png);
+   background-image: url(../images/backgroundbanner1.png) ;
    background-position:  center;
-
    align-items: center;
  }
 nav{
@@ -122,12 +120,29 @@ header img{
     text-align: justify;
 
 }
+
+.trenphan1{
+  padding-top:20px;
+  padding-bottom:0px;
+  text-align: center;
+}
+
+.chutrenphan121{
+  color:#0095eb;
+  padding: 15px 0 0;
+}
+
+.chutrenphan122{
+  color:#0095eb;
+   padding: 5px 0 -100px;
+}
+
 main .phan1 .benphai{
   width: 60%;
   background-color: ;
   height: 350px;
   float: right;
-
+  margin-top: -10px;
 }
 
 main .phan1 .bentrai{
@@ -135,6 +150,7 @@ main .phan1 .bentrai{
   background-color: white;
   height: 350px;
   float: left;
+  margin-top: -10px;
 }
 
 main .phan1 .bentrai img{
@@ -158,6 +174,7 @@ main .phan2 .benphai{
   background-color: ;
   height: 350px;
   float: right;
+  margin-top: -10px;
 }
 
 main .phan2 .benphai img{
@@ -171,6 +188,7 @@ main .phan2 .bentrai{
   background-color: ;
   height: 350px;
   float: left;
+  margin-top: -10px;
 }
 
 
@@ -186,7 +204,7 @@ main .phan3 .benphai{
   background-color: ;
   height: 280px;
   float: right;
-
+  margin-top: -10px;
 }
 
 main .phan3 .benphai .chubenphai3{
@@ -200,6 +218,7 @@ main .phan3 .bentrai{
   background-color: ;
   height: 280px;
   float: left;
+  margin-top: -10px;
 }
 
 main .phan3 .bentrai img{
@@ -234,7 +253,7 @@ main .phan3 .bentrai img{
     font-size: 12px;
     line-height: 25px;
     color: #666666;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-left: 0px;
 }
 .functions li span {
@@ -257,6 +276,9 @@ main .phan3 .bentrai img{
     -o-transform: translate(-50%, -50%);
 }
 
+.phan51{
+  background-color: #f3f3f3;
+}
 .phan5 .title{
   height: 50px;
   float: left;
@@ -274,15 +296,230 @@ main .phan3 .bentrai img{
   border-top: dotted;
   margin-top: -20px;
   margin-bottom: 50px;
+
 }
+
+.phan5 .title2{
+  border-bottom: dotted;
+  margin-top: 100px;
+  clear: left;
+}
+
 .phan5{
   clear: right;
-  padding: 10px 0 200px;
+  padding: 10px 0 30px;
+}
+/*-----------------------/phan5--------------------------------*/
+
+/*-----------------------phan6--------------------------------*/
+.phan6 .chutrenphan6 h2{
+  color:#0095eb;
+  padding: 0 24%;
+  text-align: center;
+  clear: left;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.phan6 .chutrenphan6 h4{
+   color:#0095eb;
+   padding: 0 30%;
+   font-size: 50px;
+   line-height: 32px;
+   font-weight: 500;
+   font: inherit;
+   vertical-align: baseline;
+   text-align: center;
+   margin-top: -5px;
+}
+
+
+.phan6phan{
+  width: 80%;
+  margin: 0px auto;
+}
+
+.phan6phan p{
+  font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.phan6phan h2{
+  color: #0095eb;
+    letter-spacing: 1px !important;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 300;
+    display: block;
+}
+
+.phan61 .bentrai{
+  background-color: ;
+  float: left;
+  height: 300px;
+  width: 50%;
+}
+
+.phan61 img{
+  height: 100%;
+  padding-left: 175px;
+  padding-top: 20px;
+}
+
+.phan61 .benphai{
+  background-color: ;
+  float: right;
+  height: 300px;
+  width: 50%;
+}
+
+.chuphan61{
+  margin-left: 30px;
+  margin-top: 75px;
+}
+.phan62 .bentrai{
+  background-color: ;
+  float: left;
+  height: 300px;
+  width: 50%;
+}
+
+.phan62 .benphai{
+  background-color: ;
+  float: right;
+  height: 300px;
+  width: 50%;
+}
+
+.phan62 img{
+  height: 100%;
+  padding-left: 100px;
+}
+
+.chuphan62{
+  margin-top: 75px;
+  margin-left: 50px;
+}
+.phan63 .bentrai{
+  background-color: ;
+  float: left;
+  height: 300px;
+  width: 50%;
+}
+
+.phan63 img{
+  height: 100%;
+  margin-left: 200px;
+  margin-top: -50px;
+}
+
+.phan63 .benphai{
+  background-color: ;
+  float: right;
+  height: 300px;
+  width: 50%;
+}
+
+.chuphan63{
+  margin-top: 50px;
+}
+/*-----------------------/phan6--------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------phan7--------------------------------*/
+
+.backgroundphan7{
+  clear:right;
+}
+
+.hinhphan7{
+  height: 1000px;
+  background-image: url(../images/backgroundphan7.png);
+  display: block;
+}
+
+.counter {
+    font-weight: bold;
+    color: #bcd02f;
+}
+
+.hinhphan7 h2{
+  font-size: 30px;;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+
+.hinhphan7 ul{
+
+
+}
+
+.logophan7{
+  margin: 0 -18px;
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.hinhphan7 ul{
+
+  list-style-position: inside;
+}
+
+.hinhphan7 li{
+  float: left;
+  width: 20%;
+  padding: 0 0px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 25px;
+  color: #666666;
+  margin-bottom: 50px;
+  margin-left: 0px;
+
+}
+
+.hinhphan7 li span {
+    display: block;
+    height: 100px;
+}
+
+.hinhphan7 .icon {
+    height: 100px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.hinhphan7 .icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 
 
-/*--------------------------------------------------------------------------*/
+
+
+/*-----------------------/phan7--------------------------------*/
+
+
+
+
+
 
 /*-----------------------phan4--------------------------------*/
 main .phan4{
@@ -293,6 +530,7 @@ main .phan4 .bentrai{
   background-color: #CCC;
   float: left;
   height: 300px;
+  clear: right;
 }
 
 main .phan4 .benphai{
